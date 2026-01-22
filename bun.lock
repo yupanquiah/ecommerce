@@ -8,6 +8,8 @@
         "oxfmt": "0.26.0",
         "oxlint": "1.41.0",
         "oxlint-tsgolint": "0.11.1",
+        "prettier": "^3.8.1",
+        "prettier-plugin-tailwindcss": "^0.7.2",
       },
     },
   },
@@ -61,6 +63,10 @@
     "oxlint": ["oxlint@1.41.0", "", { "optionalDependencies": { "@oxlint/darwin-arm64": "1.41.0", "@oxlint/darwin-x64": "1.41.0", "@oxlint/linux-arm64-gnu": "1.41.0", "@oxlint/linux-arm64-musl": "1.41.0", "@oxlint/linux-x64-gnu": "1.41.0", "@oxlint/linux-x64-musl": "1.41.0", "@oxlint/win32-arm64": "1.41.0", "@oxlint/win32-x64": "1.41.0" }, "peerDependencies": { "oxlint-tsgolint": ">=0.11.1" }, "optionalPeers": ["oxlint-tsgolint"], "bin": { "oxlint": "bin/oxlint" } }, "sha512-Dyaoup82uhgAgp5xLNt4dPdvl5eSJTIzqzL7DcKbkooUE4PDViWURIPlSUF8hu5a+sCnNIp/LlQMDsKoyaLTBA=="],
 
     "oxlint-tsgolint": ["oxlint-tsgolint@0.11.1", "", { "optionalDependencies": { "@oxlint-tsgolint/darwin-arm64": "0.11.1", "@oxlint-tsgolint/darwin-x64": "0.11.1", "@oxlint-tsgolint/linux-arm64": "0.11.1", "@oxlint-tsgolint/linux-x64": "0.11.1", "@oxlint-tsgolint/win32-arm64": "0.11.1", "@oxlint-tsgolint/win32-x64": "0.11.1" }, "bin": { "tsgolint": "bin/tsgolint.js" } }, "sha512-WulCp+0/6RvpM4zPv+dAXybf03QvRA8ATxaBlmj4XMIQqTs5jeq3cUTk48WCt4CpLwKhyyGZPHmjLl1KHQ/cvA=="],
+
+    "prettier": ["prettier@3.8.1", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg=="],
+
+    "prettier-plugin-tailwindcss": ["prettier-plugin-tailwindcss@0.7.2", "", { "peerDependencies": { "@ianvs/prettier-plugin-sort-imports": "*", "@prettier/plugin-hermes": "*", "@prettier/plugin-oxc": "*", "@prettier/plugin-pug": "*", "@shopify/prettier-plugin-liquid": "*", "@trivago/prettier-plugin-sort-imports": "*", "@zackad/prettier-plugin-twig": "*", "prettier": "^3.0", "prettier-plugin-astro": "*", "prettier-plugin-css-order": "*", "prettier-plugin-jsdoc": "*", "prettier-plugin-marko": "*", "prettier-plugin-multiline-arrays": "*", "prettier-plugin-organize-attributes": "*", "prettier-plugin-organize-imports": "*", "prettier-plugin-sort-imports": "*", "prettier-plugin-svelte": "*" }, "optionalPeers": ["@ianvs/prettier-plugin-sort-imports", "@prettier/plugin-hermes", "@prettier/plugin-oxc", "@prettier/plugin-pug", "@shopify/prettier-plugin-liquid", "@trivago/prettier-plugin-sort-imports", "@zackad/prettier-plugin-twig", "prettier-plugin-astro", "prettier-plugin-css-order", "prettier-plugin-jsdoc", "prettier-plugin-marko", "prettier-plugin-multiline-arrays", "prettier-plugin-organize-attributes", "prettier-plugin-organize-imports", "prettier-plugin-sort-imports", "prettier-plugin-svelte"] }, "sha512-LkphyK3Fw+q2HdMOoiEHWf93fNtYJwfamoKPl7UwtjFQdei/iIBoX11G6j706FzN3ymX9mPVi97qIY8328vdnA=="],
 
     "tinypool": ["tinypool@2.0.0", "", {}, "sha512-/RX9RzeH2xU5ADE7n2Ykvmi9ED3FBGPAjw9u3zucrNNaEBIO0HPSYgL0NT7+3p147ojeSdaVu08F6hjpv31HJg=="],
   }
