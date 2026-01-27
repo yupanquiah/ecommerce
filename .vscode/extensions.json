@@ -1,9 +1,0 @@
-{
-  "recommendations": [
-    "oxc.oxc-vscode",
-    "usernamehw.errorlens",
-    "astro-build.astro-vscode",
-    "yoavbls.pretty-ts-errors",
-    "bradlc.vscode-tailwindcss"
-  ]
-}
