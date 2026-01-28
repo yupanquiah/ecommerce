@@ -4,10 +4,10 @@
   "type": "module",
   "module": "index.ts",
   "scripts": {
-    "lint": "oxlint -c .oxlintrc.json --deny-warnings --type-aware --type-check --report-unused-disable-directives",
-    "lint:fix": "oxlint --fix -c .oxlintrc.json",
     "fmt": "oxfmt -c .oxfmtrc.json ",
-    "fmt:check": "oxfmt --check -c .oxfmtrc.json"
+    "fmt:check": "oxfmt --check -c .oxfmtrc.json",
+    "lint": "oxlint -c .oxlintrc.json --deny-warnings --type-aware --type-check --report-unused-disable-directives",
+    "lint:fix": "oxlint --fix -c .oxlintrc.json"
   },
   "devDependencies": {
     "oxfmt": "0.26.0",
